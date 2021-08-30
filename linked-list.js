@@ -108,19 +108,71 @@ class LinkedList {
 
   /** setAt(idx, val): set val at idx to val */
 
-  setAt(idx, val) {}
+  setAt(idx, val) {
+    if (idx > this.length) return;
+    if (this.head === null || this.tail === null) return;
+
+    let ptr = 0;
+    let current = this.head;
+    while (idx !== ptr) {
+      current = current.next;
+      ptr++;
+    }
+
+    current.val = val;
+  }
 
   /** insertAt(idx, val): add node w/val before idx. */
 
-  insertAt(idx, val) {}
+  insertAt(idx, val) {
+    // insert first
+    if (idx === 0) this.unshift(val);
+    // insert last
+    else if (idx === this.length) this.push(val);
+    // insert middle
+    else {
+      let newNode = new Node(val);
+      let ptr = 0;
+      let current = this.head;
+      while (ptr !== idx - 1) {
+        ptr++;
+        current = current.next;
+      }
+      newNode.next = current.next;
+      current.next = newNode;
+      this.length++;
+    }
+  }
 
   /** removeAt(idx): return & remove item at idx, */
 
-  removeAt(idx) {}
+  removeAt(idx) {
+    if (idx === 0) this.shift();
+    else if (idx === this.length - 1) this.pop();
+    else {
+      let ptr = 0;
+      let current = this.head;
+      while (ptr !== idx - 1) {
+        ptr++;
+        current = current.next;
+      }
+      this.length--;
+      this.current.next = this.current.next.next;
+    }
+  }
 
   /** average(): return an average of all values in the list */
 
   average() {}
+
+  /** print(): prints list */
+  print() {
+    let current = this.head;
+    while (current) {
+      console.log(current.val);
+      current = current.next;
+    }
+  }
 }
 
 module.exports = LinkedList;
