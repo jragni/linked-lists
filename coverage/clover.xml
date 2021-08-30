@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1630351126492" clover="3.2.0">
+  <project timestamp="1630351126492" name="All files">
+    <metrics statements="48" coveredstatements="47" conditionals="15" coveredconditionals="13" methods="11" coveredmethods="6" elements="74" coveredelements="66" complexity="0" loc="48" ncloc="48" packages="1" files="1" classes="1"/>
+    <file name="linked-list.js" path="/Users/Ragglesoft/Desktop/Rithm/week11/week11-day1/dsa-arrays-linked-lists/linked-list.js">
+      <metrics statements="48" coveredstatements="47" conditionals="15" coveredconditionals="13" methods="11" coveredmethods="6"/>
+      <line num="4" count="10" type="stmt"/>
+      <line num="5" count="10" type="stmt"/>
+      <line num="8" count="10" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+      <line num="26" count="7" type="stmt"/>
+      <line num="29" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="31" count="3" type="stmt"/>
+      <line num="33" count="4" type="stmt"/>
+      <line num="34" count="4" type="stmt"/>
+      <line num="36" count="7" type="stmt"/>
+      <line num="41" count="3" type="stmt"/>
+      <line num="43" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="50" count="3" type="stmt"/>
+      <line num="57" count="2" type="cond" truecount="3" falsecount="1"/>
+      <line num="58" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+      <line num="67" count="0" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="70" count="1" type="stmt"/>
+      <line num="71" count="1" type="stmt"/>
+      <line num="72" count="1" type="stmt"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="80" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="81" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="83" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="86" count="1" type="stmt"/>
+      <line num="88" count="1" type="stmt"/>
+      <line num="89" count="1" type="stmt"/>
+      <line num="90" count="1" type="stmt"/>
+      <line num="91" count="1" type="stmt"/>
+      <line num="116" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

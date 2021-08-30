@@ -63,11 +63,15 @@ class LinkedList {
       return val;
     } else {
       let current = this.head;
-      while (current.next.next) current = current.next;
+      while (current.next.next !== null) {
+        current = current.next;
+      }
       this.tail = current;
+      let val = this.tail.next.val;
       this.tail.next = null;
+      this.length--;
+      return val;
     }
-    this.length--;
   }
 
   /** shift(): return & remove first item. */
