@@ -135,12 +135,12 @@ describe("removeAt", function () {
 });
 
 describe("average", function () {
-  xit("calculates the average of items in a list", function () {
+  it("calculates the average of items in a list", function () {
     let lst = new LinkedList([2, 3, 1, 1, 7, 6, 9]);
     expect(lst.average()).toBeCloseTo(4.1429, 4);
   });
 
-  xit("returns 0 for empty lists", function () {
+  it("returns 0 for empty lists", function () {
     let lst = new LinkedList();
     expect(lst.average()).toBe(0);
   });

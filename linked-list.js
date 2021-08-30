@@ -163,7 +163,17 @@ class LinkedList {
 
   /** average(): return an average of all values in the list */
 
-  average() {}
+  average() {
+    let sum = 0;
+    if (this.head === null) return 0;
+
+    let current = this.head;
+    while (current) {
+      sum += current.val;
+      current = current.next;
+    }
+    return sum / this.length;
+  }
 
   /** print(): prints list */
   print() {
